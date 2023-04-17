@@ -1,0 +1,224 @@
+@font-face {
+    font-family: GraublauWebBold;
+    src: url(fonts/GraublauWebBold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+#container{
+    width: 100%;
+}
+
+header{
+    width: 1200px;
+    margin: auto;
+
+}
+
+/*Początek menu głównego*/
+nav{
+    line-height: 100px;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    width: 100%;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+}
+
+nav li{
+    width: 100%;    
+}
+
+nav a{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 2.1em;
+    font-family: GraublauWebBold;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+/*koniec menu głównego*/
+
+.mainobraz{
+    background-image: url(img/mycieauta-780x470.jpg);
+    height: 723px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*pierwsza sekcja*/
+
+.glowna{
+    background-color: black;
+    color: white;
+    height: 700px;
+    border-bottom: 3px solid grey;
+    width: 100%;
+}
+
+.glowna > h1{
+    text-transform: uppercase;
+    font-family: GraublauWebBold;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+}
+
+.glowna >h2{
+    text-transform: uppercase;
+    font-family: GraublauWebBold;
+    text-align: center;
+    color: gold;
+}
+
+.obraz1{
+    background-image: url(img/auto1.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    border: 5px double white;
+}
+
+.obraz2{
+    background-image: url(img/auto2.webp);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    border: 5px double white;
+}
+
+.obraz3{
+    background-image: url(img/auto3.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    border: 5px double white;
+}
+
+/*druga sekcja*/
+
+.druga{
+    height: 700px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.druga > h1{
+    padding-top: 100px;
+    padding-left: 170px;
+    font-family: GraublauWebBold;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+.druga > ul > li{
+    font-size: 2em;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: gold;
+}
+
+.bum{
+    background-image: url(img/bumbum.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-top: -405px;
+    position: static;
+}
+
+.trzecia{
+    height: 700px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.trzecia > h1{
+    float: right;
+    padding-top: 100px;
+    padding-right: 150px;
+    text-transform: uppercase;
+    font-family: GraublauWebBold;
+    font-size: 3.5em;
+}
+
+.trzecia > h4{
+    color: gold;
+    float: right;
+    font-size: 2em;
+    width: 500px;
+    padding-right: 110px;
+    text-align: center;
+    
+}
+
+
+.git{
+    background-image: url(img/Auto-detailing-4.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: static;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 5px solid grey;
+}
+
+.block{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.my-icon{
+    font-size: 4em;
+    margin: 10px;
+}
+
+.block > a{
+    color: white;
+}
+
+.block > a:hover{
+    color: gold;
+}
